@@ -31,7 +31,8 @@ $$\Delta v_{1-2} = \sqrt{\frac{\mu}{r_1}} \left(\sqrt{\frac{2*r_2}{r1+r2}}-1\rig
 *Note: This deltaV is used in transfers between Planet and Satellite*
 
 ## Angular difference
-Aligment between objects
+Aligment between objects:
+
 $$\boxed{\alpha = \pi \left(1-\frac{1}{2\sqrt{2}} \sqrt{\left(\frac{r_1}{r_2}+1\right)^3} \right)}$$
 
 
