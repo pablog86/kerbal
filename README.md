@@ -42,6 +42,7 @@ $$\boxed{\alpha = \pi \left(1-\frac{1}{2\sqrt{2}} \sqrt{\left(\frac{r_1}{r_2}+1\
 
 ## Current angle
 Using the inner producto to get the angle between body and craft.
+
 $$cos(\theta) = \frac{\left<U.V\right>}{\left|\left|U\right|\right|\left|\left|V\right|\right|}$$
 
 ---
