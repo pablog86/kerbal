@@ -27,7 +27,9 @@ https://orbital-mechanics.space/orbital-maneuvers/hohmann-transfer.html
 * $a$ is the semi-major axis of the body's orbit.
 Therefore, the delta-v (Δv) required for the Hohmann transfer can be computed as follows, under the assumption of instantaneous impulses from 1 to 2 only:
 
-$$\Delta v_{1-2} = \sqrt{\frac{\mu}{r_1}} \left(\sqrt{\frac{2*r_2}{r1+r2}}-1\right) $$ *Note: This deltaV is used in transfers between Planet and Satellite*
+$$
+\Delta v_{1-2} = \sqrt{\frac{\mu}{r_1}} \left(\sqrt{\frac{2*r_2}{r1+r2}}-1\right)
+$$ *Note: This deltaV is used in transfers between Planet and Satellite*
 
 ## Angular difference
 Aligment between objects
