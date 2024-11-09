@@ -31,7 +31,7 @@ $$\Delta v_{1-2} = \sqrt{\frac{\mu}{r_1}} \left(\sqrt{\frac{2*r_2}{r1+r2}}-1\rig
 
 ## Angular difference
 Aligment between objects
-$$ \boxed{\alpha = \pi \left(1-\frac{1}{2\sqrt{2}} \sqrt{\left(\frac{r_1}{r_2}+1\right)^3} \right)}$$
+$$\boxed{\alpha = \pi \left(1-\frac{1}{2\sqrt{2}} \sqrt{\left(\frac{r_1}{r_2}+1\right)^3} \right)}$$
 
 
 <p align="center">
@@ -40,7 +40,7 @@ $$ \boxed{\alpha = \pi \left(1-\frac{1}{2\sqrt{2}} \sqrt{\left(\frac{r_1}{r_2}+1
 
 ## Current angle
 Using the inner producto to get the angle between body and craft.
-$$ cos(\theta) = \frac{\left<U.V\right>}{\left|\left|U\right|\right|\left|\left|V\right|\right|}$$
+$$cos(\theta) = \frac{\left<U.V\right>}{\left|\left|U\right|\right|\left|\left|V\right|\right|}$$
 
 ---
 
@@ -66,25 +66,21 @@ All interplanetary bodies such as comets or asteroids that approach the Kerbin, 
 
 For a Hohmann transfer between the origin and target planets (e.g., from Kerbin to Duna), the **semi-major axis** of the transfer orbit is:
 
-$$
-a_t = \frac{r_{\text{origin}} + r_{\text{target}}}{2}
-$$
+$$a_t = \frac{r_{\text{origin}} + r_{\text{target}}}{2}$$
 
 where:
-- $ r_{\text{origin}} $ is the radius of the origin planet’s orbit around the Sun.
-- $ r_{\text{target}} $ is the radius of the target planet’s orbit around the Sun.
+- $r_{\text{origin}}$ is the radius of the origin planet’s orbit around the Sun.
+- $r_{\text{target}}$ is the radius of the target planet’s orbit around the Sun.
 
 #### 2. Specific Orbital Energy of the Transfer Orbit
 
 The **specific orbital energy** of the transfer orbit is:
 
-$$
-\epsilon_t = -\frac{\mu_{\text{Sun}}}{2 a_t}
-$$
+$$\epsilon_t = -\frac{\mu_{\text{Sun}}}{2 a_t}$$
 
 where:
-- $ \mu_{\text{Sun}} $ is the gravitational parameter of the Sun (\( \mu = GM \), where \( G \) is the gravitational constant and \( M \) is the Sun's mass).
-- $ a_t $ is the semi-major axis of the transfer orbit.
+- $\mu_{\text{Sun}} $ is the gravitational parameter of the Sun (\( \mu = GM \), where \( G \) is the gravitational constant and \( M \) is the Sun's mass).
+- $a_t $ is the semi-major axis of the transfer orbit.
 
 
 #### 3. Velocity in the Origin’s Orbit Around the Sun
