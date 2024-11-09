@@ -130,7 +130,7 @@ The required delta-v for escaping the origin planet is the difference between th
 $$\Delta v_{\text{escape}} = |v_{\text{escape}} - v_{\text{parking}}|$$
 
 where:
-$v_{\text{parking}} = \sqrt{\frac{\mu_{\text{origin}}}{r_{\text{parking}}}} $ is the orbital velocity in the parking orbit.
+$v_{\text{parking}} = \sqrt{\frac{\mu_{\text{origin}}}{r_{\text{parking}}}}$ is the orbital velocity in the parking orbit.
 
 
 #### 8. Eccentricity of the Escape Orbit and Escape Angle
@@ -144,6 +144,6 @@ The **escape angle** $\eta$ is:
 $$\boxed{\eta = \cos^{-1}\left(-\frac{1}{e_{\text{escape}}}\right)}$$
 
 where:
-- $e_{\text{escape}} $ is the eccentricity of the hyperbolic escape orbit.
+- $e_{\text{escape}}$ is the eccentricity of the hyperbolic escape orbit.
 
 This escape angle, $\eta$, represents the angle between the tangential vector at periapsis and the direction of departure along the hyperbolic trajectory.
