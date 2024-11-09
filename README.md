@@ -27,9 +27,8 @@ https://orbital-mechanics.space/orbital-maneuvers/hohmann-transfer.html
 * $a$ is the semi-major axis of the body's orbit.
 Therefore, the delta-v (Δv) required for the Hohmann transfer can be computed as follows, under the assumption of instantaneous impulses from 1 to 2 only:
 
-$
-\Delta v_{1-2} = \sqrt{\frac{\mu}{r_1}} \left(\sqrt{\frac{2*r_2}{r1+r2}}-1\right)
-$ *Note: This deltaV is used in transfers between Planet and Satellite*
+$$\Delta v_{1-2} = \sqrt{\frac{\mu}{r_1}} \left(\sqrt{\frac{2*r_2}{r1+r2}}-1\right)$$ 
+*Note: This deltaV is used in transfers between Planet and Satellite*
 
 ## Angular difference
 Aligment between objects
@@ -89,9 +88,7 @@ where:
 
 The orbital velocity of the origin planet in its heliocentric orbit is:
 
-$$
-v_{\text{origin}} = \sqrt{\frac{\mu_{\text{Sun}}}{r_{\text{origin}}}}
-$$
+$$v_{\text{origin}} = \sqrt{\frac{\mu_{\text{Sun}}}{r_{\text{origin}}}}$$
 
 where $ r_{\text{origin}} $ is the radius of the origin planet’s orbit around the Sun.
 
@@ -100,64 +97,52 @@ where $ r_{\text{origin}} $ is the radius of the origin planet’s orbit around 
 
 The velocity in the transfer orbit at the radius of the origin planet's orbit is:
 
-$$
-v_{\text{transfer}} = \sqrt{2 \left( \epsilon_t + \frac{\mu_{\text{Sun}}}{r_{\text{origin}}} \right)}
-$$
+$$v_{\text{transfer}} = \sqrt{2 \left( \epsilon_t + \frac{\mu_{\text{Sun}}}{r_{\text{origin}}} \right)}$$
 
 where:
-- $ \epsilon_t $ is the specific orbital energy of the transfer orbit.
-- $ \frac{\mu_{\text{Sun}}}{r_{\text{origin}}} $ represents the gravitational potential energy at the origin planet’s orbit radius.
+- $\epsilon_t $ is the specific orbital energy of the transfer orbit.
+- $\frac{\mu_{\text{Sun}}}{r_{\text{origin}}} $ represents the gravitational potential energy at the origin planet’s orbit radius.
 
 
 #### 5. Excess Velocity at Infinity
 
 The **excess velocity** \( v_{\infty} \) is the difference between the transfer orbit velocity and the origin planet's orbital velocity:
 
-$$
-v_{\infty} = |v_{\text{origin}} - v_{\text{transfer}}|
-$$
+$$v_{\infty} = |v_{\text{origin}} - v_{\text{transfer}}|$$
 
 
 #### 6. Velocity at Periapsis of the Hyperbolic Escape Orbit
 
 The velocity at the **periapsis** of the hyperbolic escape orbit is:
 
-$$
-v_{\text{escape}} = \sqrt{v_{\infty}^2 + \frac{2 \mu_{\text{origin}}}{r_{\text{parking}}}}
-$$
+$$v_{\text{escape}} = \sqrt{v_{\infty}^2 + \frac{2 \mu_{\text{origin}}}{r_{\text{parking}}}}$$
 
 where:
-- $ v_{\infty} $ is the excess velocity at infinity.
-- $ \frac{2 \mu_{\text{origin}}}{r_{\text{parking}}} $ is the velocity due to the origin planet's gravity at the radius of the parking orbit.
+- $v_{\infty} $ is the excess velocity at infinity.
+- $\frac{2 \mu_{\text{origin}}}{r_{\text{parking}}} $ is the velocity due to the origin planet's gravity at the radius of the parking orbit.
 
 
 #### 7. Delta-v for Escape
 
 The required delta-v for escaping the origin planet is the difference between the velocity at periapsis of the hyperbolic escape orbit and the velocity in the parking orbit:
 
-$$
-\Delta v_{\text{escape}} = |v_{\text{escape}} - v_{\text{parking}}|
-$$
+$$\Delta v_{\text{escape}} = |v_{\text{escape}} - v_{\text{parking}}|$$
 
 where:
-$ v_{\text{parking}} = \sqrt{\frac{\mu_{\text{origin}}}{r_{\text{parking}}}} $ is the orbital velocity in the parking orbit.
+$v_{\text{parking}} = \sqrt{\frac{\mu_{\text{origin}}}{r_{\text{parking}}}} $ is the orbital velocity in the parking orbit.
 
 
 #### 8. Eccentricity of the Escape Orbit and Escape Angle
 
 The **eccentricity** of the hyperbolic escape orbit is:
 
-$$
-e_{\text{escape}} = 1 + \frac{r_{\text{parking}} \cdot v_{\infty}^2}{\mu_{\text{origin}}}
-$$
+$$e_{\text{escape}} = 1 + \frac{r_{\text{parking}} \cdot v_{\infty}^2}{\mu_{\text{origin}}}$$
 
 The **escape angle** $\eta$ is:
 
-$$
-\boxed{\eta = \cos^{-1}\left(-\frac{1}{e_{\text{escape}}}\right)}
-$$
+$$\boxed{\eta = \cos^{-1}\left(-\frac{1}{e_{\text{escape}}}\right)}$$
 
 where:
-- $ e_{\text{escape}} $ is the eccentricity of the hyperbolic escape orbit.
+- $e_{\text{escape}} $ is the eccentricity of the hyperbolic escape orbit.
 
 This escape angle, $\eta$, represents the angle between the tangential vector at periapsis and the direction of departure along the hyperbolic trajectory.
